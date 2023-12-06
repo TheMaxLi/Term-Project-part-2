@@ -1,0 +1,38 @@
+<div class="profileCard">
+    <img src= "<%= user.profile %>" alt="<%= user.username %> profile pic" class="profilePic">
+        <div class="buttons">
+              <button class="uploadButton" id="openPopup <%= user.username %>">Upload</button>
+              
+              <div class="popup" id="uploadPopup <%= user.username %>">
+                  <div class="popup-content">
+                      <h2>Upload a Photo</h2>
+                      <form action="<%= user.imgDirPath %>" method="post" enctype="multipart/form-data">
+                          <input type="file" name="photo" accept="image/*">
+                          <input type="submit" value="Upload Photo">
+                      </form>
+                      <button id="closePopup <%= user.username %>">Close</button>
+                  </div>
+              </div>
+            <button class="username"><a href="/<%= user.username %>/feed"><%= user.username %></a></button>
+        </div>
+        <script>
+            
+            let openPopupButton<%= user.username %> = document.getElementById('openPopup <%= user.username %>');
+            let closePopupButton<%= user.username %> = document.getElementById('closePopup <%= user.username %>');
+            let uploadPopup<%= user.username %> = document.getElementById('uploadPopup <%= user.username %>');
+      
+            openPopupButton<%= user.username %>.addEventListener('click', () => {
+                uploadPopup<%= user.username %>.style.display = 'block';
+            });
+          
+            closePopupButton<%= user.username %>.addEventListener('click', () => {
+                uploadPopup<%= user.username %>.style.display = 'none';
+            });
+            window.addEventListener("keydown", (event) => {
+            if (event.key === "Escape") {
+                uploadPopup<%= user.username %>.style.display = 'none';
+            }
+        })
+                
+        </script>
+</div>

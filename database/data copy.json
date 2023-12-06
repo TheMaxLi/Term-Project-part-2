@@ -1,0 +1,67 @@
+[
+  {
+    "id": "90bf10a3-c9fb-406a-a35a-3e4a8db0fbf8",
+    "description": "welcome to my profile!",
+    "username": "john123",
+    "stats": {
+      "posts": 2,
+      "followers": 30,
+      "following": 14
+    },
+    "profile": "profile.jpeg",
+    "photos": [
+      "pic1.png",
+      "pic2.png"
+    ]
+  },
+  {
+    "id": "cb506c7d-1c2f-4ce8-a56f-d45f16bf34cf",
+    "description": "Hi there!",
+    "username": "sandra123",
+    "stats": {
+      "posts": 2,
+      "followers": 32,
+      "following": 30
+    },
+    "profile": "profile.jpeg",
+    "photos": [
+      "pic1.png",
+      "pic2.png"
+    ]
+  },
+  {
+    "id": "c12506c7d-1c5f-4ce8-a56f-d45f16bf34cf",
+    "description": "I like cats",
+    "username": "catlover231",
+    "stats": {
+      "posts": 2,
+      "followers": 42,
+      "following": 32
+    },
+    "profile": "profile.jpg",
+    "photos": [
+      "pic1.jpg",
+      "pic2.jpg",
+      "pic1.jpg",
+      "pic2.jpg",
+      "pic1.jpg",
+      "pic2.jpg"
+    ]
+  },
+  {
+    "id": "c12213sc7d-1c5f-4ce8-a56f-d45f16bf34cf",
+    "description": "I like bananas, monkeys, cats, and money",
+    "username": "T1_D_Rider",
+    "stats": {
+      "posts": 3,
+      "followers": -10000000,
+      "following": 1
+    },
+    "profile": "profile.png",
+    "photos": [
+      "pic1.png",
+      "pic2.png",
+      "pic3.png"
+    ]
+  }
+]
