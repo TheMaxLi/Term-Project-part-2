@@ -20,7 +20,7 @@ const addPhotoToDatabase = (data, name, fileName) => {
   const newDatabase = JSON.parse(data).map((obj) => {
     if (obj.username === name) {
       obj.photos.push(fileName);
-      obj.stats.post++;
+      obj.stats.posts++;
     }
     return obj;
   });
